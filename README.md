@@ -1,0 +1,2 @@
+# PattternIterator
+Реализация PattternIterator
