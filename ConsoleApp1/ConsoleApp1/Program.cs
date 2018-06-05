@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.Social;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
+            SocialSpammer socialSpammer = new SocialSpammer(new Facebook());
+            socialSpammer.Send();
         }
     }
 }
